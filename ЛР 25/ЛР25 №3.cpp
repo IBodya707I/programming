@@ -14,12 +14,13 @@ int main()
 	r=a;
 	for(i=0;i<n;i++)
 	{
-	if(*r<*(r+1))
-	{
-		cout<<i+2<<" ";
-		k++;	
+		if(*r<*(r+1))
+		{
+			cout<<i+2<<" ";
+			k++;	
+		}
+		r++;
 	}
-	r++;}
 	cout<<endl<<"k = "<<k;
 	return 0;
 }
